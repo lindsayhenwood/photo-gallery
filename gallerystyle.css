@@ -1,30 +1,38 @@
-
-
 body {
 	font-family: Helvetica;
-	margin: 0;
-	padding:0;
+	margin: 20px;
+	padding:15px;
 }
 
-	h2 {
-		font-size: 2.5em;
-		}
+h2 {
+font-size: 1.5em;
+}
 
-	#portfolio-feed {
-		position: relative;
-		overflow: hidden;
-		height: 726px;
-		}
+h2:before{
+	content: "";
+}
 
-	.ul {
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		-webkit-transform: translate3d(0px,0px,0px) scale3d(1,1,1);
-		opacity: 1;
+#portfolio-feed {
+	clear: both;
 	}
 
-	.li {
-		width: 174px;
-		height: 111px;
-	}
+li.photo {
+	float: left;
+}
+
+img {
+	
+	margin: 20px;
+	padding: 6px;
+	position: relative;
+	width: 225px;
+	height: 200px;
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	top: 0px;
+	left: 0px;
+}
+
+#portfolio-feed .photo 
+
+
+
