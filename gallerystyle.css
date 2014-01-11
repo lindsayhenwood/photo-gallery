@@ -1,8 +1,30 @@
 
 
 body {
-	font-family: 
+	font-family: Helvetica;
 	margin: 0;
 	padding:0;
 }
 
+	h2 {
+		font-size: 2.5em;
+		}
+
+	#portfolio-feed {
+		position: relative;
+		overflow: hidden;
+		height: 726px;
+		}
+
+	.ul {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		-webkit-transform: translate3d(0px,0px,0px) scale3d(1,1,1);
+		opacity: 1;
+	}
+
+	.li {
+		width: 174px;
+		height: 111px;
+	}
