@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 
 
-	$("#portfolio-feed li.img").click(function(){
+	$("#portfolio-feed li.photo").click(function(){
 		console.log("hello!");
 		var src = $(this).attr("src");
 		$("#main-image").attr("src", src);
